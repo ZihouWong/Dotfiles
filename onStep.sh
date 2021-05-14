@@ -31,6 +31,7 @@ brew install --cask fork
 brew install --cask spotify
 brew install --cask wechat
 brew install --cask dingtalk
+brew install --cask macdown
 brew install bear
 
 # Work Tools

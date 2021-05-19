@@ -116,9 +116,9 @@ echo "# git fetch" >> ~/.zshrc
 echo "alias gf='git fetch'" >> ~/.zshrc
 echo "" >> ~/.zshrc
 
-# open with xcode
-echo "# open with xcode" >> ~/.zshrc
-echo "alias open='open -a xcode'" >> ~/.zshrc
+# switch branch
+echo "$ switch branch" >> ~/.zshrc
+echo "alias sb='xcodegen && bundle exec pod install && git submodule update'" 
 echo "" >> ~/.zshrc
 # alias End
 

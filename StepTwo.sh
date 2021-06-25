@@ -102,7 +102,7 @@ echo "" >> ~/.zshrc
 
 # switch branch
 echo "# switch branch" >> ~/.zshrc
-echo "alias sb='bundle install && xcodegen && bundle exec pod install --repo-update && git submodule update'" >> ~/.zshrc
+echo "alias sb='xcodegen && bundle exec pod install --repo-update && git submodule update'" >> ~/.zshrc
 echo "" >> ~/.zshrc
 
 # format

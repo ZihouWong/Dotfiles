@@ -64,6 +64,10 @@ echo "# set iTerm2 theme" >> ~/.zshrc
 echo "ZSH_THEME=\"agnoster\"" >> ~/.zshrc
 echo "" >> ~/.zshrc
 
+# rbenv init
+echo "# rbenv init" >> ~/.zshrc
+echo "eval \"$(rbenv init - zsh)\"" >> ~/.zshrc
+echo "" >> ~/.zshrc
 
 # alias Start
 echo "# Setting alias" >> ~/.zshrc

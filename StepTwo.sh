@@ -124,3 +124,5 @@ echo "" >> ~/.zshrc
 # alias End
 
 source ~/.zshrc
+
+

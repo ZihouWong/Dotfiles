@@ -8,7 +8,7 @@ brew install --cask iterm2
 
 # Homebrew
 echo "Instlling Homebrew"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Oh My Zsh
 echo "Instlling Oh My Zsh"
@@ -117,7 +117,7 @@ echo "alias gf='git fetch'" >> ~/.zshrc
 echo "" >> ~/.zshrc
 
 # switch branch
-echo "$ switch branch" >> ~/.zshrc
+echo "# switch branch" >> ~/.zshrc
 echo "alias sb='xcodegen && bundle exec pod install --repo-update && git submodule update'" 
 echo "" >> ~/.zshrc
 # alias End

@@ -9,3 +9,10 @@ rm -rf fonts
 # text-color
 git clone https://github.com/MartinSeeler/iterm2-material-design.git
 
+# https://github.com/MartinSeeler/iterm2-material-design
+
+# Fork
+# 1. 账号
+# 2. 激活码
+# 3. ssh
+

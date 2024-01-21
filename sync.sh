@@ -1,20 +1,23 @@
-# USAGE:
-# chmod -x Sync.sh
-# ./Sync.sh
+# Summury: 
+# 1. install Homebrew
+# 2. using Homebrew install iTerm 2, Sublime Text, Fork, etc. 
+# 3. sync apps customized setting
 
 echo "Setting Up For Zihou's MacOS ..."
 
-# Homebrew
+# 1. install Homebrew
 if test ! $(which omz); then
-    echo "Instlling Homebrew"
+    echo "Installing Homebrew"
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
-# Oh My Zsh
 
+# Oh My Zsh
 function installIfNeed() {
     echo "这是我的第一个 shell 函数!"
 }
+
 echo "-----函数开始执行-----"
+
 demoFun
 echo "-----函数执行完毕-----"
 
@@ -179,10 +182,6 @@ brew install wget
 brew install jenv
 brew install rbenv
 
-brew install openssl
-brew install pyenv
-pyenv install 3.7.10
-pyenv global 3.7.10 system
 
 # Xcode
 echo "Instlling Xcode Tools"
@@ -199,3 +198,8 @@ echo "brew doctor"
 brew doctor
 
 source ~/.zshrc
+
+# set up fork
+# - step one: Account login
+# - step two: License
+# - step three:

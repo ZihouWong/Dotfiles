@@ -9,24 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "build stage, ${params.PublishPlatform}"
-            }
-        }
-        stage('Deliver for development') {
-            when {
-                branch 'development'
-            }
-            steps {
-                echo "in development branch"
-                echo "execute this pipeline"
-            }
-        }
-        stage('Deploy for production') {
-            when {
-                branch 'production'
-            }
-            steps {
-                echo "in production branch"
-                echo "execute other pipeline"
+
             }
         }
     }

@@ -4,6 +4,7 @@
 # 3. sync apps customized setting
 # origin testing git diff relatvie with branch
 # test
+# test2
 
 echo "Setting Up For Zihou's MacOS ..."
 

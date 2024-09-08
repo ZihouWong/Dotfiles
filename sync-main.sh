@@ -3,7 +3,6 @@
 # 2. using Homebrew install iTerm 2, Sublime Text, Fork, etc. 
 # 3. sync apps customized setting
 # origin testing git diff relatvie with branch
-
 echo "Setting Up For Zihou's MacOS ..."
 
 # 1. install Homebrew

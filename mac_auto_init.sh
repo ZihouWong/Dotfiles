@@ -10,3 +10,6 @@ for app in "${homebrew_apps[@]}"; do
         echo "$app 应用已经安装！"
     fi
 done
+
+
+
